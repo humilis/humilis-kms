@@ -1,0 +1,6 @@
+language: python
+python:
+- '3.4'
+script:
+- make clean
+- travis_wait 30 make test

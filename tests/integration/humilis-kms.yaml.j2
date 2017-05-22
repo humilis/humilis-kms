@@ -1,0 +1,14 @@
+---
+humilis-kms:
+    description:
+        A dummy environment used for testing the kms plugin.
+
+    layers:
+        - layer: kms
+          layer_type: kms
+          key_admins:
+            - user/german
+            - user/arnaud
+            - user/raam
+          key_users:
+            - user/german
