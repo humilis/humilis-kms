@@ -1,6 +1,7 @@
 # Deploy an AWS KMS key
 
 [![PyPI](https://img.shields.io/pypi/v/humilis-kms.svg?style=flat)](https://pypi.python.org/pypi/humilis-kms)
+[![Build Status](https://travis-ci.org/humilis/humilis-kms.svg?branch=master)](https://travis-ci.org/humilis/humilis-kms)
 
 A [humilis][humilis] plug-in layer that deploys a KMS key.
 
@@ -71,4 +72,15 @@ If you have questions, bug reports, suggestions, etc. please create an issue on 
 
 ## License
 
-See the original [Casecommons repository][casecommons] for license information.
+This software is licensed under the [MIT license][mit].
+
+[mit]: http://en.wikipedia.org/wiki/MIT_License
+
+See [License file][LICENSE].
+
+[LICENSE]: ./LICENSE.txt
+
+
+© 2017 German Gomez-Herrero, [Find Hotel][fh] and others.
+
+[fh]: http://company.findhotel.net
