@@ -10,3 +10,8 @@ outputs:
             "Fn::GetAtt":
                 - KmsKey
                 - Arn
+
+    KmsKeyAlias:
+        Description: The key alias
+        Value: 
+            "{{__context.environment.name}}-{{__context.layer.name}}-{{__context.stage}}"
