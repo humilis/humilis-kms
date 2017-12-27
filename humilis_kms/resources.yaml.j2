@@ -1,5 +1,11 @@
 ---
 resources:
+    KmsKeyAlias:
+      Type: "AWS::KMS::Alias"
+      Properties:
+        AliasName: "alias/{{__context.environment.name}}-{{__context.layer.name}}-{{__context.stage}}"
+        TargetKeyId:
+            Ref: KmsKey
     KmsKey: 
       Type: "AWS::KMS::Key"
       Properties: 
