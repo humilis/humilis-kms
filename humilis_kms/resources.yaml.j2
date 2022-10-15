@@ -40,6 +40,8 @@ resources:
                 - "kms:Delete*"
                 - "kms:ScheduleKeyDeletion"
                 - "kms:CancelKeyDeletion"
+                - "kms:TagResource"
+                - "kms:UntagResource"
               Resource: "*"
             - 
               Sid: "Allow use of the key"
